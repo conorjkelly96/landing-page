@@ -4,6 +4,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
+  color: white;
 }
 
 .navbar {
@@ -15,20 +16,30 @@
   bottom: 10;
 }
 
-.navbar #navlinks {
-  color: white;
+#navlinks {
+  display: inline-block;
 }
 
 #fabric_london {
-  width: 75%;
+  width: 85%;
   display: block;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
 }
 
 .whoweare {
-  background-color: violet;
+  background-color: indigo;
+  top: 0;
 }
 
 #form {
+  background-color: violet;
+  color: white;
+  width: 100%;
+}
+
+#submit_button {
+  color: black;
 }
